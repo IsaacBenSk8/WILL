@@ -1,6 +1,6 @@
 /* 
   Importante: 
-  No modificar ni el nombre ni los argumetos que reciben las funciones, sólo deben escribir
+  No modificar ni el nombre ni los argumentos que reciben las funciones, sólo deben escribir
   código dentro de las funciones ya definidas. 
   No comentar la funcion 
 */
@@ -9,11 +9,10 @@ function soloNumeros(array) {
   // Debe devolver un arreglo con solo los enteros.
   // Ej: 
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
-
+  
   // Tu código aca:
-
+  return array.filter(e => typeof e === 'number');
 }
-
 // No modifiques nada debajo de esta linea //
 
 
